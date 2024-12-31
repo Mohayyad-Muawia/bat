@@ -18,7 +18,7 @@ app.use(router);
 
 const io = socketio(server, {
     cors: {
-        origin: "http://localhost:5173",
+        origin: "https://bat4chat.vercel.app",
         methods: ["GET", "POST"], 
     },
 });
